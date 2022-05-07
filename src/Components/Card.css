@@ -1,0 +1,139 @@
+.card {
+    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
+    padding: 10px 0px;
+    margin-block: 10px;
+    margin-inline: 7px;
+    border-radius: 5px;
+    display: flex;
+    width: 98vw;
+    height: 320px;
+  }
+  .sidebar {
+    padding: 5px 0px;
+    text-align: center;
+    width: 17vw;
+  }
+  .sidebar h1 {
+    font-weight: 400;
+  }
+  .sidebar h2 {
+    font-size: 15px;
+    padding: 5px 0px;
+    color: rgb(145, 141, 138);
+    font-weight: 500;
+  }
+  .sidebar button {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .common-row {
+    display: flex;
+    justify-content: space-between;
+    width: 83vw;
+    max-height: 366px;
+    margin: 10px 0px;
+  }
+  .common-col {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .common-col img {
+    width: 200px;
+    height: 130px;
+    transition: 300ms;
+  }
+  .common-col img:hover {
+    transform: scale(0.9);
+  }
+  .common-col h3,
+  h4,
+  h6 {
+    /* text-transform: capitalize; */
+    cursor: pointer;
+    margin-block: 8px;
+  }
+  .common-col h3 {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .common-col h4 {
+    color: green;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  .common-col h6 {
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+/* .card {
+  padding: 20px;
+  cursor: pointer;
+}
+.card > .dots {
+  width: 10px;
+  height: 10px;
+  color: gray;
+}
+.card > .card__image > img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+.card__heart {
+  float: right;
+  color: lightgray;
+}
+.card__details > p {
+  padding: 0;
+  margin: 0;
+}
+.card__details > .title {
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(165, 165, 165);
+}
+.card__details > p {
+  font-size: 14px;
+}
+.card__details > .span1 {
+  font-weight: bold;
+}
+.card__details > .span2 {
+  color: gray;
+  padding-left: 7px;
+  text-decoration: line-through;
+}
+.card__details > .span3 {
+  padding-left: 7px;
+  color: rgb(2, 98, 2);
+  font-size: 14px;
+  font-weight: 600;
+}
+.productDet {
+  position: relative;
+  transition: 0.5s;
+  height: 70px;
+}
+.productDet > .card__size {
+  position: absolute;
+  opacity: 0;
+}
+.card:hover .productDet {
+  transition: 0.5s;
+  transform: translateY(-20%);
+}
+.card:hover .productDet > .card__size {
+  opacity: 1;
+  transition: 1.75s;
+} */
